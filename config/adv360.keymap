@@ -77,11 +77,11 @@
 
         sybmbol_layer {
             bindings = <
-&trans  &trans  &trans    &trans        &trans        &trans  &trans                                      &trans  &trans  &trans        &trans        &trans    &trans  &trans
-&trans  &trans  &trans    &trans        &trans        &trans  &trans                                      &trans  &trans  &trans        &trans        &trans    &trans  &trans
-&trans  &trans  &kp LBKT  &kp LS(LBRC)  &kp LS(LPAR)  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LS(RPAR)  &kp LS(RBRC)  &kp RBKT  &trans  &trans
-&trans  &trans  &trans    &trans        &trans        &trans                  &trans      &trans                  &trans  &trans        &trans        &trans    &trans  &trans
-&trans  &trans  &trans    &trans        &trans                &trans  &trans  &trans      &trans  &trans  &trans          &trans        &trans        &trans    &trans  &trans
+&trans  &trans  &trans    &trans        &trans        &trans     &trans                                      &trans  &trans    &trans        &trans        &trans    &trans  &trans
+&trans  &trans  &trans    &trans        &trans        &trans     &trans                                      &trans  &trans    &trans        &trans        &trans    &trans  &trans
+&trans  &trans  &kp LBKT  &kp LS(LBRC)  &kp LS(LPAR)  &kp EQUAL  &trans  &trans  &trans      &trans  &trans  &trans  &kp PLUS  &kp LS(RPAR)  &kp LS(RBRC)  &kp RBKT  &trans  &trans
+&trans  &trans  &trans    &trans        &kp TILDE     &trans                     &trans      &trans                  &trans    &kp MINUS     &trans        &trans    &trans  &trans
+&trans  &trans  &trans    &trans        &trans                   &trans  &trans  &trans      &trans  &trans  &trans            &trans        &trans        &trans    &trans  &trans
             >;
         };
     };
