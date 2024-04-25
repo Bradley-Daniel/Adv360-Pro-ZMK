@@ -22,7 +22,7 @@
         left_bracket_2: left_bracket_2 {
             compatible = "zmk,behavior-mod-morph";
             label = "LEFT_BRACKET_2";
-            bindings = <&kp LEFT_BRACKET>, <&kp KP_NUMBER_2>;
+            bindings = <&kp LEFT_BRACKET>, <&kp N1>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
